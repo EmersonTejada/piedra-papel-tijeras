@@ -1,0 +1,43 @@
+{
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+"workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": false,
+  "breadcrumbs.enabled": true,
+  "editor.fontWeight": "bold",
+  "terminal.integrated.fontWeightBold": "bold",
+  "editor.language.colorizedBracketPairs": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"]
+  ],
+  "editor.fontVariations": false,
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    }
+  }
+}

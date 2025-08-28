@@ -81,8 +81,6 @@ function playGame() {
   console.log(humanScore);
   console.log(computerScore);
   console.log(gameWinner());
-
-  
 }
 
 playGame();
